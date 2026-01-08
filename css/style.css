@@ -55,6 +55,8 @@ h1 {
 #countParaId {
     font-size: 28px;
     min-width: 60px;
+    text-align: center;
+    transition: transform 0.15s ease;
 }
 
 .reset {
@@ -69,4 +71,13 @@ h1 {
 
 button:hover {
     opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
