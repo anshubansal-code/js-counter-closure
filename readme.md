@@ -1,31 +1,25 @@
+
 <!-- Github visibility -->
+
+# Smart Counter App (Closure Based)
 
 🔗 Live Demo: https://anshubansal-code.github.io/js-counter-closure/
 
-
-# Smart Counter App (Clouser Based)
-
 ## Features
-
-- Increment / Decremnt / Reset Counter
-- Private counter state using closure
+- Increment / Decrement / Reset counter
+- Private counter state using JavaScript closures
 - Clean DOM manipulation
 
-## Javascript Concepts Used
-
+## JavaScript Concepts Used
 - Closures
-- Scope Chain
+- Scope chain
 - Event handling
 - DOM manipulation
 
 ## What I Learned
-
 - How closures preserve state
-- How to design private variables in JavaScript
-- Separation of UI and logic
+- How to create private variables in JavaScript
+- How to separate logic from UI
 
-## Interview Explanation
-
-This project uses a closure to maintain a private `count` variable.
-The `createCounter()` function returns methods that can access `count`
-even after the function execution is complete.
+## Project Type
+Beginner → Intermediate JavaScript Project
